@@ -1,10 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
+import { Navigation } from './components';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        teste
-      </div>
+      <Fragment>
+        <main className="App">
+          <Navigation />
+        </main>
+      </Fragment>
     );
   }
 }
