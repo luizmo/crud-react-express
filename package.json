@@ -1,0 +1,12 @@
+{
+  "name": "project-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "client": "cd client && npm start",
+     "server": "node index.js",
+  },
+  "author": "Luiz Miguel",
+  "license": "ISC"
+}
